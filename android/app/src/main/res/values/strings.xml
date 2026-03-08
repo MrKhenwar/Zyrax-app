@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Zyrax</string>
+    <string name="title_activity_main">Zyrax</string>
+    <string name="package_name">zyrax.fit</string>
+    <string name="custom_url_scheme">zyrax.fit</string>
+</resources>

@@ -1,0 +1,19 @@
+{
+  "appId": "zyrax.fit",
+  "appName": "Zyrax",
+  "webDir": "dist",
+  "server": {
+    "hostname": "zyrax.fit",
+    "androidScheme": "https"
+  },
+  "ios": {
+    "contentInset": "automatic",
+    "scrollEnabled": true,
+    "preferredContentMode": "mobile"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
