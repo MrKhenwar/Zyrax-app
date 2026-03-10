@@ -1,19 +1,37 @@
 {
-  "name": "wrapper",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "zyrax-fitness-mobile",
+  "version": "3.0.0",
+  "description": "Zyrax Fitness Mobile Application",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "ios": "npx cap sync ios && npx cap open ios"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
+    "@tanstack/react-query": "^5.28.0",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.3.1",
+    "framer-motion": "^11.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.6.0",
+    "react-router-dom": "^6.27.0",
+    "swr": "^2.2.5",
+    "uuid": "^13.0.0",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
     "@capacitor/android": "^7.4.3",
     "@capacitor/cli": "^7.4.3",
     "@capacitor/core": "^7.4.3",
-    "@capacitor/ios": "^7.4.3"
+    "@capacitor/ios": "^7.4.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "terser": "^5.46.0",
+    "vite": "^5.4.1"
   }
 }
